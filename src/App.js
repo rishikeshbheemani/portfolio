@@ -38,7 +38,7 @@ function Footer() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
       <SocialRail />
       <div className="page">
@@ -48,6 +48,6 @@ export default function App() {
         </Routes>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
